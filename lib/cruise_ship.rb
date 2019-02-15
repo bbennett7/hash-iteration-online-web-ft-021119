@@ -9,7 +9,7 @@
 def select_winner(passengers)
   passengers.each do |suite, name|
     if suite = :suite_a && name.start_with?("A")
-      puts "#{suite} #{name}"
+      puts "#{name}"
     end
   end
 end
